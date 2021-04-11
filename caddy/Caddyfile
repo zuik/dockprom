@@ -1,6 +1,6 @@
 :9090 {
     basicauth / {
-        {$ADMIN_USER} JDJhJDE0JDVTOUp1NU43NWl5R3JDRnltU3JaNk9VL253SDRwQU9DeHNtb3J3eWpDS3JUcURsS0RaWjk2
+        {$ADMIN_USER} JDJhJDE0JHRJd0ZneVcxRTZjWGlIc3FnbndCby5oZmFRWEd0L1NzVmJmemJzTVQzTVBVdi5WL2pRSGdl
     }
     
     reverse_proxy prometheus:9090
@@ -8,7 +8,7 @@
 
 :9093 {
     basicauth / {
-        {$ADMIN_USER} JDJhJDE0JDVTOUp1NU43NWl5R3JDRnltU3JaNk9VL253SDRwQU9DeHNtb3J3eWpDS3JUcURsS0RaWjk2
+        {$ADMIN_USER} JDJhJDE0JHRJd0ZneVcxRTZjWGlIc3FnbndCby5oZmFRWEd0L1NzVmJmemJzTVQzTVBVdi5WL2pRSGdl
     }
     
     reverse_proxy alertmanager:9093
@@ -16,7 +16,7 @@
 
 :9091 {
     basicauth / {
-        {$ADMIN_USER} JDJhJDE0JDVTOUp1NU43NWl5R3JDRnltU3JaNk9VL253SDRwQU9DeHNtb3J3eWpDS3JUcURsS0RaWjk2
+        {$ADMIN_USER} JDJhJDE0JHRJd0ZneVcxRTZjWGlIc3FnbndCby5oZmFRWEd0L1NzVmJmemJzTVQzTVBVdi5WL2pRSGdl
     }
     
     reverse_proxy pushgateway:9091
